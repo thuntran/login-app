@@ -24,7 +24,8 @@ After the project is cloned into your local machine, in the project directory `l
 
 ### `npm start`
 
-This will run the app in the development mode.\
+This will run the app in the development mode.
+
 Open [http://localhost:3000](http://localhost:3000) to view the app in your browser. You will see something like this:
 
 # <img alt="UI" src="images/app.png" height="600" width="800">
