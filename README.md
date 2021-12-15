@@ -25,9 +25,16 @@ After the project is cloned into your local machine, in the project directory `l
 ### `npm start`
 
 This will run the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [http://localhost:3000](http://localhost:3000) to view the app in your browser. You will see something like this:
 
 # <img alt="UI" src="images/app.png" height="600" width="800">
 
+Enter your phone number in the first field (without a country code, the default is +1). Click "Submit", and a 6-digit access code will be sent to your phone number. Here is an example:
+
 # <img alt="verify" src="images/access-code.png" height="800" width="370">
+
+Go back to your browser and enter the access code, then click "Submit". 
+
+If the code is correct, you will see an alert on the browser saying "Access code verified". Otherwise, you will see the alert "Wrong access code, please try again." from your browser.
+
 
