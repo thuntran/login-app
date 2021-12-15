@@ -6,6 +6,10 @@ The default mobile country code is +1 (United States).
 
 This app was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and use [Firebase](https://firebase.google.com/) as database.
 
+## Structure of the Project
+
+This was essentially React app that was created using `create-react-app`. Approriate chunks of code from [Firebase](https://firebase.google.com/) documentation are included in `App.js`.
+
 ## Available Scripts
 
 In the project directory, you can run:
