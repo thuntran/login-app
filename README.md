@@ -29,3 +29,5 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 # <img alt="UI" src="images/app.png" height="600" width="800">
 
+# <img alt="verify" src="images/access-code.png" height="600" width="200">
+
