@@ -27,5 +27,5 @@ After the project is cloned into your local machine, in the project directory `l
 This will run the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-# <img alt="UI" src="images/app.png" height="800" width="600">
+# <img alt="UI" src="images/app.png" height="600" width="800">
 
