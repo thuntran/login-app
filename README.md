@@ -10,9 +10,10 @@ This app was bootstrapped with [Create React App](https://github.com/facebook/cr
 
 This is an React app that was created using `create-react-app`. 
 
-- The content of the app, including titles, input fields and submit buttons, is stored under `src/App.js`.
+- The content of the app, including titles, input fields and submit buttons, is stored under `src/App.js`. Approriate chunks of code from [Firebase](https://firebase.google.com/) documentation for access code authentication purposes are also included in `src/App.js`.
 
-Approriate chunks of code from [Firebase](https://firebase.google.com/) documentation are included in `App.js`.
+- The Firebase configuration for the app is stored under `src/firebase.js`.
+
 
 ## Running the App
 
