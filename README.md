@@ -1,14 +1,18 @@
 # Login App
 
-This is a basic login application that takes in a phone number, then sends a random 6-digit code to the phone number received, and verify whether the access code entered is correct. 
+A basic login application that takes in a phone number, sends a random 6-digit code to the phone number received, and verify whether the access code entered is correct. 
 
 The default mobile country code is +1 (United States).
 
-This app was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and use [Firebase](https://firebase.google.com/) as database.
+This app was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and use [Firebase](https://firebase.google.com/) for database.
 
 ## Structure of the Project
 
-This was essentially React app that was created using `create-react-app`. Approriate chunks of code from [Firebase](https://firebase.google.com/) documentation are included in `App.js`.
+This is an React app that was created using `create-react-app`. 
+
+- The content of the app, including titles, input fields and submit buttons, is stored under `src/App.js`.
+
+Approriate chunks of code from [Firebase](https://firebase.google.com/) documentation are included in `App.js`.
 
 ## Running the App
 
