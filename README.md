@@ -1,6 +1,6 @@
 # Login App
 
-A basic login application that takes in a phone number, sends a random 6-digit code to the phone number received, and verify whether the access code entered is correct. 
+A basic login application that takes in a phone number, sends a random 6-digit code to the phone number received, and verifies whether the access code entered is correct. 
 
 The default mobile country code is +1 (United States).
 
@@ -14,7 +14,6 @@ This is an React app that was created using `create-react-app`.
 
 - The Firebase configuration for the app is stored under `src/firebase.js`.
 
-
 ## Running the App
 
 Make sure the `npm` has already been installed to your local machine by checking the current version of `npm`:
@@ -25,7 +24,7 @@ If `npm` has not been installed, install `npm` using:
 
 ### `npm install -g npm`
 
-After the project is cloned into your local machine, in the project directory `login-app`, run the React app using:
+After the project is cloned into your local machine, in your terminal, under the project directory `login-app`, run the React app using:
 
 ### `npm start`
 
@@ -39,7 +38,7 @@ Enter your phone number in the first field (without a country code, the default 
 
 # <img alt="verify" src="images/access-code.png" height="800" width="370">
 
-Go back to your browser and enter the access code, then click "Submit". 
+Go back to your browser and enter the access code that you received, then click "Submit". 
 
 If the code is correct, you will see an alert on the browser saying "Access code verified". Otherwise, you will see the alert "Wrong access code, please try again." from your browser.
 
