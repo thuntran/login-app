@@ -1,4 +1,4 @@
-# Login App
+# Basic Login App
 
 A basic login application that takes in a phone number, sends a random 6-digit code to the phone number received, and verifies whether the access code entered is correct. 
 
