@@ -4,11 +4,11 @@ A basic login application that takes in a phone number, sends a random 6-digit c
 
 The default mobile country code is +1 (United States).
 
-This app was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and use [Firebase](https://firebase.google.com/) for database.
+This app was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and use [Firebase](https://firebase.google.com/) for backend and database.
 
 ## Structure of the Project
 
-This is an React app that was created using `create-react-app`. 
+This is a React app that was created using `create-react-app`. 
 
 - The content of the app, including titles, input fields and submit buttons, is stored under `src/App.js`. Approriate chunks of code from [Firebase](https://firebase.google.com/) documentation for access code authentication purposes are also included in `src/App.js`.
 
