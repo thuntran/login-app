@@ -9,10 +9,13 @@ let phoneNumber;
 // Listen to the `submit` event on the #phone-form, make a POST request to 
 // the /send-notification backend endpoint, with the value of the phone number
 phoneForm.addEventListener('submit', async e => {
+    // Prevent normal submission of the form
     e.preventDefault();
-  
+
+    // Capture the phone number entered in the input field
     phoneNumber = document.getElementById('phone-number-input').value;
-  
+
+    // Make the POST request
     const response = await fetch('http://localhost:3000/send-notification', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -29,15 +32,18 @@ phoneForm.addEventListener('submit', async e => {
 // the /verify-otp backend endpoint, with the value of both the phone number 
 // and access code
 verifyForm.addEventListener('submit', async e => {
+    // Prevent normal submission of the form
     e.preventDefault();
-  
+
+    // Capture the access code entered in the input field
     const otp = document.getElementById('otp-input').value;
   
     const data = {
       phoneNumber: phoneNumber, 
       otp: otp
     };
-  
+    
+    // Make the POST request
     const response = await fetch('http://localhost:3000/verify-otp', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
@@ -45,7 +51,8 @@ verifyForm.addEventListener('submit', async e => {
     }).catch(e => console.log(e));
   
     const check = await response.json();
-  
+    
+    // Display the verification status to the user
     const text = response.ok ? check.status : response.statusText;
     responseText.innerHTML = text;
   

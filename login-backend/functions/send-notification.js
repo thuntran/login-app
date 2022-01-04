@@ -1,5 +1,6 @@
 // This backend endpoint receives the user's phone number, and send
-// the access code via SMS to the phone number via Twiolio Verify API
+// the access code via SMS to the phone number via Twilio Verify API.
+// This initiates the verification process.
 exports.handler = function(context, event, callback) {
     const client = context.getTwilioClient();
   
