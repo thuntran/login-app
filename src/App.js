@@ -17,13 +17,14 @@ class App extends React.Component {
       'callback': (response) => {
         // reCAPTCHA solved, allow signInWithPhoneNumber.
         this.onSubmitPhoneNumber();
-        console.log("reCAPTCHA verified.")
+        console.log("reCAPTCHA verified.") // for testing
       },
       defaultCountry: "US"
     });
   }
   // Send a random 6-digit access code with Firebase upon receiving the phone number
   onSubmitPhoneNumber = (e) => {
+    // Prevent a browser reload/refresh
     e.preventDefault()
 
     this.configureCaptcha()
@@ -43,18 +44,19 @@ class App extends React.Component {
   }
   // Verify the access code with Firebase upon receiving the access code
   onSubmitAccessCode = (e) => {
+    // Prevent a browser reload/refresh
     e.preventDefault()
+
     const code = this.state.accesscode
     console.log(code) // for checking the access code in the console
     window.confirmationResult.confirm(code).then((result) => {
       // Access code is correct, success.
       const user = result.user;
-      console.log(JSON.stringify(user))
+      console.log(JSON.stringify(user)) // for testing
       alert("Access code verified.")
     }).catch((error) => {
       // Wrong access code, failure.
       alert("Wrong access code, please try again.")
-
     });
   }
   render() {
