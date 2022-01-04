@@ -2,7 +2,7 @@ import React from 'react'
 import firebase from './firebase'
 
 class App extends React.Component {
-  // To handle the inputs for mobile phone and access code
+  // To handle the change in the inputs for mobile phone and access code
   handleChange = (e) => {
     const {name, value} = e.target
     // Re-render component with the updated state
