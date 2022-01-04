@@ -14,3 +14,5 @@ var firebaseConfig = {
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 export default firebase
+
+// Install Firebase on local machine before use: npm install firebase
